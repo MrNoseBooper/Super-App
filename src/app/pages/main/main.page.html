@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home Page</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-row>
+    @for(item of items; track i; let i =  $index ) {
+      <ion-col sizeLg="3" sizeMd="4" sizeSm="6" sizeXs="6">
+        <ion-card>
+          <ion-thumbnail>
+            <ion-img [src]="item?.cover"></ion-img>
+          </ion-thumbnail>  
+
+          <ion-label>
+            <ion-text color="dark"><strong>{{item?.name}}</strong></ion-text>
+            <p>
+              <ion-text color="dark">
+                <strong>{{item?.price}}</strong>
+              </ion-text>
+
+              <ion-text class="rating" color="dark">
+                {{item?.rating}}
+              <ion-icon name="star" color="warning"></ion-icon>
+              </ion-text>
+            </p>
+          </ion-label>
+        </ion-card>
+      </ion-col>
+    } 
+  </ion-row>
+
+
+  <div type = "flex-center">
+    <ion-tabs>
+      <ion-tab-bar slot="Home">
+        <ion-tab-button tab="home-outline">
+          <ion-icon name="home-outline"></ion-icon>
+          Home
+        </ion-tab-button>
+        <ion-tab-button tab="Category">
+          <ion-icon name="apps-outline"></ion-icon>
+          Category
+        </ion-tab-button>
+        <ion-tab-button tab="Favorite">
+          <ion-icon name="heart-outline"></ion-icon>
+          Favorite
+        </ion-tab-button>
+        <ion-tab-button tab="P  rofile">
+          <ion-icon name="person-outline"></ion-icon>
+          Profile
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </div>
+</ion-content>
