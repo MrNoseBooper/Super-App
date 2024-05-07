@@ -5,7 +5,49 @@ ion-button[color = "medium"]{
 ion-content {
     --background: #d8dade;
 }
+  
+ion-header {
+    box-shadow: none;
+    --background: #d8dade:
+}
 
 ion-card {
-    border-radius:6px !important;
+    --background: var(--ion-color-light);
+    height: 14rem;
+    margin: 0.3rem 0;
+    box-shadow: none;
+    border-radius:8px;
+    border: 1px solid var(--ion-color-light);
+    
+
+    ion-thumbnail {
+        width: 100%;
+        height: 10rem;
+        margin-bottom: 10px;
+
+        ion-img {
+            height: 100%;
+            border-radius: 8px;
+        }
     }
+
+    ion-label {
+        font-size: 0.9rem;
+    }
+    ion-label, p {
+        margin: 0 5px;
+    }
+
+    p {
+        font-size: 0.85rem;
+        margin-top: 8px;
+        font-weight: 500;
+        letter-spacing: 0 !important;
+        ion-text.rating {
+            float: right;
+            ion-icon {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
