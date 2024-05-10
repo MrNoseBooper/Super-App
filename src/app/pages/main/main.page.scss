@@ -1,3 +1,4 @@
+
 ion-button[color = "medium"]{
     text-transform: initial;
 }
@@ -11,13 +12,17 @@ ion-header {
     --background: #d8dade:
 }
 
+ion-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 ion-card {
     --background: var(--ion-color-light);
     height: 14rem;
     margin: 0.3rem 0;
     box-shadow: none;
     border-radius:8px;
-    border: 1px solid var(--ion-color-light);
     
 
     ion-thumbnail {

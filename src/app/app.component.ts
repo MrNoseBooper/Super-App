@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
-import { star, homeOutline, appsOutline, heartOutline, personOutline } from 'ionicons/icons';
+import { star, homeOutline, appsOutline, heartOutline, personOutline, bagHandleOutline, bagHandle, trashOutline, remove, add } from 'ionicons/icons';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,8 @@ import { star, homeOutline, appsOutline, heartOutline, personOutline } from 'ion
 export class AppComponent {
   constructor() {
     addIcons({
-      star, homeOutline, appsOutline, heartOutline, personOutline
+      star, homeOutline, appsOutline, heartOutline, personOutline, bagHandleOutline, bagHandle, trashOutline,
+      remove, add,
     })
   }
 }

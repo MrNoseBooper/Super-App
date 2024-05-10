@@ -3,7 +3,7 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'loader',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
   {
@@ -20,6 +20,28 @@ export const routes: Routes = [
   },
   {
     path: 'main',
-    loadComponent: () => import('./pages/main/main.page').then( m => m.MainPage)
+    children: [
+      {
+        path: '',
+        loadComponent: () => import('./pages/main/main.page').then( m => m.MainPage)
+      },
+      {
+        path: 'cart',
+        loadComponent: () => import('./pages/cart/cart.page').then( m => m.CartPage)
+      },
+      {
+        path: 'product/:id',
+        children: [
+          {
+            path: '',
+            loadComponent: () => import('./pages/product-details/product-details.page').then( m => m.ProductDetailsPage)
+          },
+          {
+            path: 'cart',
+            loadComponent: () => import('./pages/cart/cart.page').then( m => m.CartPage)
+          },
+        ],
+      }
+    ],
   },
 ];

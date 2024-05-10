@@ -9,7 +9,7 @@ export class ApiService {
     { 
       id: '1',
       name: 'Surprise Gift Basket',
-      price: 999,
+      price: 30,
       status: true,
       rating: 4.9,
       cover: 'assets/icon/gift-basket.jpg',
@@ -18,7 +18,7 @@ export class ApiService {
     {
       id: '2',
       name: 'Luxury Chocolate Box',
-      price: 500,
+      price: 200,
       status: true,
       rating: 4.7,
       cover: 'assets/icon/chocolate-box.jpg',
@@ -27,7 +27,7 @@ export class ApiService {
     {
       id: '3',
       name: 'OTT Subscription',
-      price: 1500,
+      price: 69,
       status: true,
       rating: 4.9,
       cover: 'assets/icon/gift-card.jpg',
@@ -36,7 +36,7 @@ export class ApiService {
     {
       id: '4',
       name: 'Designer Handbag',
-      price: 10000,
+      price: 5000,
       status: true,
       rating: 4.8,
       cover: 'assets/icon/handbag.jpg',
@@ -45,7 +45,7 @@ export class ApiService {
     {
       id: '5',
       name: 'Personalized Mug',
-      price: 350,
+      price: 20,
       status: true,
       rating: 4.5,
       cover: 'assets/icon/mug.jpg',
@@ -54,7 +54,7 @@ export class ApiService {
     {
       id: '6',
       name: 'Perfume Set',
-      price: 2000,
+      price: 200,
       status: true,
       rating: 4.9,
       cover: 'assets/icon/perfume-set.jpg',
@@ -63,7 +63,7 @@ export class ApiService {
     {
       id: '7',
       name: 'Jewelry Box',
-      price: 4000,
+      price: 400,
       status: true,
       rating: 4.6,
       cover: 'assets/icon/jewelry-box.jpg',
@@ -72,7 +72,7 @@ export class ApiService {
     {
       id: '8',
       name: 'Romantic Dinner Set',
-      price: 10000,
+      price: 150,
       status: true,
       rating: 4.9,
       cover: 'assets/icon/dinner-set.jpg',
@@ -81,7 +81,7 @@ export class ApiService {
     {
       id: '9',
       name: 'Leather Wallet',
-      price: 2500,
+      price: 300,
       status: true,
       rating: 4.6,
       cover: 'assets/icon/wallet.jpg',
@@ -90,7 +90,7 @@ export class ApiService {
     {
       id: '10',
       name: 'Phone Case',
-      price: 999,
+      price: 60,
       status: true,
       rating: 4.7,
       cover: 'assets/icon/phone-case.jpg',
@@ -99,7 +99,7 @@ export class ApiService {
     {
       id: '11',
       name: 'Diamond Jewelry',
-      price: 20000,
+      price: 1000,
       status: true,
       rating: 4.6,
       cover: 'assets/icon/diamond.jpg',
@@ -107,8 +107,8 @@ export class ApiService {
     },
     {
       id: '12',
-      name: 'Leather Travel Set',
-      price: 5000,
+      name: 'Suitcase',
+      price: 150,
       status: true,
       rating: 4.5,
       cover: 'assets/icon/travel-bag.jpg',
@@ -117,7 +117,7 @@ export class ApiService {
     {
       id: '13',
       name: 'Modern Wall Clock',
-      price: 2500,
+      price: 420,
       status: true,
       rating: 4.7,
       cover: 'assets/icon/wall-clock.jpg',
@@ -126,7 +126,7 @@ export class ApiService {
     {
       id: '14',
       name: 'Eco-friendly Planters',
-      price: 850,
+      price: 15,
       status: true,
       rating: 4.5,
       cover: 'assets/icon/planters.jpg',
